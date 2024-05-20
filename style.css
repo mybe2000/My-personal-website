@@ -1,7 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: box-model;
+  box-sizing: border-box;
 }
 
 nav {
@@ -12,8 +12,8 @@ nav {
 }
 
 a {
-  list-style: none;
   margin: 10px;
+  text-decoration: none;
 }
 
 .name {
