@@ -11,6 +11,10 @@ nav {
   justify-content: space-between;
 }
 
+footer {
+  text-align: center;
+}
+
 a {
   margin: 10px;
   text-decoration: none;
@@ -25,9 +29,18 @@ a {
   font-weight: bold;
 }
 
+#personalPic {
+  height: 40%;
+  width: 40%;
+}
+
 main > img {
   width: 200px;
   float: right;
+}
+
+.flex-container {
+  display: flex;
 }
 
 img {
@@ -40,12 +53,18 @@ main {
   min-height: 100vh;
 }
 
+p {
+  font-size: large;
+}
+
 .quote {
-  margin-top: 10rem;
+  padding-top: 60px;
+  padding-bottom: 60px;
   text-align: center;
   font-size: 35px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  position: relative;
 }
 
 footer {
@@ -76,12 +95,10 @@ section {
   margin: 2em auto;
 }
 
-ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+footer {
+  text-align: center;
 }
 
-li {
-  list-style: none;
+.img-footer {
+  height: 7vh;
 }
