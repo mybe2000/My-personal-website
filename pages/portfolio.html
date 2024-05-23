@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../styles.css" />
   </head>
   <body>
     <nav>
@@ -12,9 +12,12 @@
         <h2>Mia Kalaj</h2>
       </div>
       <div>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
+        <!-- fixed links after moving portfolio to pages folder -->
+        <a href="../index.html">Home</a>
+        <a href="./about.html">About</a>
         <a href="">Portfolio</a>
+        <!-- added contact -->
+        <a href="./contact.html">Contact</a>
       </div>
     </nav>
     <main>
@@ -23,7 +26,7 @@
         <section class="project">
           <h3>The First Project</h3>
           <div>
-            <img src="./images/positive-image.jpeg" alt="positive-image" />
+            <img src="../images/positive-image.jpeg" alt="positive-image" />
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum
               delectus porro laudantium facilis eos numquam quam harum
@@ -41,7 +44,8 @@
         <section class="project">
           <h3>The Second Project</h3>
           <div>
-            <img src="./images/tulips.jpeg" alt="tulips" />
+            <!-- fixed image links after moving to pages folder -->
+            <img src="../images/tulips.jpeg" alt="tulips" />
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
               ducimus quod, libero facilis eveniet veniam at dolore molestias.
@@ -58,7 +62,12 @@
         </section>
       </div>
     </main>
-    <footer>Facebook Twitter</footer>
-    <script src="script.js"></script>
+    <footer>
+      <ul>
+        <li><a href="https://www.facebook.com">Facebook</a></li>
+        <li><a href="https://www.twitter.com">Twitter</a></li>
+        <li><a href="https://www.linkedin.com">LinkedIn</a></li>
+      </ul>
+    </footer>
   </body>
 </html>

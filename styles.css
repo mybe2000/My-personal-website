@@ -16,6 +16,10 @@ a {
   text-decoration: none;
 }
 
+.active {
+  border-bottom: 1px solid rgb(66, 20, 109);
+}
+
 .name {
   font-size: large;
   font-weight: bold;
@@ -70,4 +74,14 @@ section {
   background-color: rgb(184, 133, 67);
   padding: 10px;
   margin: 2em auto;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  list-style: none;
 }
