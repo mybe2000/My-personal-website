@@ -4,24 +4,54 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
+    <link rel="stylesheet" href="../styles.css" />
   </head>
   <body>
-    <form action="../success.html" id="form">
-      <label for="fname">First Name:</label>
-      <input type="text" name="fname" id="fname" />
+    <!-- navbar -->
+    <nav>
+      <div class="name">
+        <h2>Mia Kalaj</h2>
+      </div>
+      <div>
+        <a href="../index.html">Home</a>
 
-      <label for="lname">Last Name:</label>
-      <input type="text" name="lname" id="lname" />
-      <br />
-      <label for="email">Email:</label>
-      <input type="email" name="email" id="email" />
-      <br />
-      <label for="message">Send me a message:</label>
-      <br />
-      <textarea name="message" id="message" cols="30" rows="10"></textarea>
-      <br />
-      <input type="submit" name="submit" id="submit" />
-    </form>
+        <a href="./about.html">About</a>
+        <a href="./portfolio.html">Portfolio</a>
+        <!-- added active class -->
+        <a class="active" href="./contact.html">Contact</a>
+      </div>
+    </nav>
+    <main>
+      <form action="../success.html" id="form">
+        <label for="fname">First Name:</label>
+        <input type="text" name="fname" id="fname" /><br />
+
+        <label for="lname">Last Name:</label>
+        <input type="text" name="lname" id="lname" />
+        <br />
+        <br />
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" />
+        <br />
+        <br />
+        <label for="message">Send me a message:</label>
+        <br />
+        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        <br />
+        <input type="submit" name="submit" id="submit" />
+      </form>
+    </main>
+    <footer>
+      <a href="https://www.facebook.com"
+        ><img class="img-footer" src="../images/facebook.png" alt="" />
+      </a>
+      <a href="https://www.twitter.com"
+        ><img class="img-footer" src="../images/twitter.png" alt=""
+      /></a>
+      <a href="https://www.linkedin.com"
+        ><img class="img-footer" src="../images/linkedin.png" alt=""
+      /></a>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>

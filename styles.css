@@ -4,11 +4,18 @@
   box-sizing: border-box;
 }
 
+/* @media (max-width: 1024px) {
+} */
+
+/* added sticky navbar */
 nav {
   background-color: rgb(138, 187, 170);
-  padding: 15px;
+  padding: 5px;
   display: flex;
   justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 
 footer {
@@ -37,6 +44,7 @@ a {
 main > img {
   width: 200px;
   float: right;
+  margin-top: 10px;
 }
 
 .flex-container {
@@ -51,6 +59,7 @@ img {
 main {
   background-color: blanchedalmond;
   min-height: 100vh;
+  margin-top: 40px;
 }
 
 p {
@@ -101,4 +110,8 @@ footer {
 
 .img-footer {
   height: 7vh;
+}
+
+form {
+  padding: 10px;
 }
