@@ -4,9 +4,6 @@
   box-sizing: border-box;
 }
 
-/* @media (max-width: 1024px) {
-} */
-
 /* added sticky navbar */
 nav {
   background-color: rgb(138, 187, 170);
@@ -63,7 +60,13 @@ main {
 }
 
 p {
-  font-size: large;
+  font-size: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  p {
+    font-size: 1.75rem;
+  }
 }
 
 .quote {
